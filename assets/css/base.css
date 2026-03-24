@@ -1,0 +1,92 @@
+/* responsive khi màn hình nhỏ @media (max-width: 768px) {
+  .bmw-logo {
+    width: 150px;
+  }
+
+  .dautrang__list {
+    gap: 15px;
+  }
+
+  .dautrang__1 {
+    font-size: 14px;
+  }
+
+  .header__search-input {
+    max-width: 300px;
+  }
+
+  .timkiemlogo {
+    font-size: 30px;
+    margin-right: 40px;
+  }
+} */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* * {
+  box-sizing: inherit;
+} */
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "roboto", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+.app {
+  /* width: 1200px; */
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+html {
+  /* background-color: black; */
+}
+/* PC */
+@media (min-width: 1024px) {
+  .pc {
+    display: block;
+  }
+}
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+}
+/* MOBILE */
+@media (max-width: 739px) {
+  .mobile {
+    display: block;
+  }
+}

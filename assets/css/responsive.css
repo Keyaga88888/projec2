@@ -1,0 +1,144 @@
+/* PC */
+/* @media (min-width: 1024px) { */
+@media (min-width: 64em) {
+  .pc {
+    display: block;
+  }
+}
+/* TABLET & MOBILE */
+/* @media (max-width: 1023px) { */
+@media (max-width: 63.9375em) {
+  .btn {
+    padding: 15px 16px;
+  }
+  .contact-form .form-control {
+    padding: 15px;
+  }
+}
+/* TABLET */
+/* @media (min-width: 740px) and (max-width: 1023px) { */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .tablet {
+    display: block;
+  }
+}
+/* MOBILE */
+/* @media (max-width: 739px) { */
+@media (max-width: 46.1875em) {
+  .mobile {
+    display: block;
+  }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    /* box-sizing: border-box; */
+    /* max-width: 100%; */
+  }
+  .vomau1 {
+    overflow:visible;
+  }
+  .quangcao-dautrang {
+    display: none;
+  }
+  .header {
+    top: 0; /* bắt buộc phải có */
+    position: sticky;
+    z-index: 1000;
+  }
+  .dautrang__logo {
+    padding: 20px 0;
+    flex: 2;
+  }
+  .dieuhuong {
+    display: none;
+  }
+  .dautrang__list {
+    display: none;
+  }
+  .dautrang__1 {
+    display: inline;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .timkiem-dautrang {
+    display: none;
+  }
+  .chinh-logo {
+    /* display: none; */
+    margin-right: -70px;
+  }
+  .chinh-logo li {
+    /* margin-left: ; */
+  }
+ .con-dangnhap{
+    position: absolute;
+    right: 0;
+z-index: 2000; }
+  .text-heading,
+  .text-description {
+    float: left;
+    text-align: start;
+  }
+  .con-dangnhap::before {
+        top: -13px;
+    right: 10%; 
+  }
+
+  .member-list {
+    display: inline-block;
+  }
+  .timkiemlogo {
+  }
+  #content .member-lis {
+    overflow: hidden;
+  }
+  #content .member-item {
+    width: 100%;
+    float: none;
+    /* margin: 10%; */
+  }
+
+  #content .member-img {
+    /* width:200px; */
+    width: 60%;
+    padding: 10px 8px;
+  }
+  .text-white {
+    /* display: flex; */
+    /* text-align: left; */
+
+    /* margin-left: 24%; */
+  }
+  /* type="submit" tự động có text-align:center */
+  .s-col-full,
+  .s-full-width {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .col-third {
+    /* width:100%; */
+  }
+  .col {
+    float: left;
+  }
+  .socials-list {
+    font-size: 48px;
+  }
+  #footer .socials-list a {
+    margin: 0 8px;
+  }
+  .copyright a {
+    padding: 12px 0;
+    display: inline-block;
+  }
+
+ .contact-info {
+    font-size: 18px;
+   line-height: 1.6;
+  }
+  .contact-submit-btn{
+    font-size: 16px;
+    padding:15px;
+  }
+}
